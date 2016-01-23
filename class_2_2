@@ -1,0 +1,34 @@
+
+
+
+package javaapplication5;
+
+
+public class JavaApplication5 {
+
+ 
+    public static void main(String[] args) {
+      int a = 20, b = 3, c = 10, h= 67;
+    
+    
+    
+    if (a > h)
+    {
+        
+        System.out.println("A es mayor a H");}
+    
+    if (h < a)
+    {System.out.println("H es grandota.");
+    
+    }
+    
+    if (b > c)
+    {System.out.println("B es chiquito.");
+    }else if(a > b) 
+    {System.out.println("A es enorme");
+        
+        }
+   
+        
+}
+}
