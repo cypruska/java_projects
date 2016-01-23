@@ -1,0 +1,81 @@
+
+
+package javaapplication7;
+
+
+public class JavaApplication7 {
+
+    
+    
+        //While, do While, FOR + Break and Continue.
+        // Mantienen ciclo de corrido, funcionan hasta que se cumpla condición.
+        // A == B
+        // A > B
+        // While () {Main}
+        
+        /* Do {Main} While (Condición)
+        
+        */
+      
+      /*  while (a <=210) {
+            
+            a ++;
+            //Incrementa de a 2
+            
+            {System.out.println("Pucha");
+            
+            }
+        do a + a {
+            
+        }while (a <=2300)
+        {System.out.println("Bue");  
+        }
+        */
+      //  for (int 2300; a <= b; b++);
+        //{System.out.println("Dale")
+          //      }
+            
+        //Actividad 2
+        // Leer todos los parámetros de entrada. (Argumentos en Propiedades del RUN).
+        /* Recorrer hasta el final ** Imprimir valores de cada posición.
+        */
+        
+        
+        public static void main(String[] args) {
+            int tamaño_arreglo = args.length; // Obtener el numero de
+                                              // elementos del arreglo.
+                //    System.out.println("Posicion: "+ args[2]); 
+        int incremento = 0;
+                 while (incremento < tamaño_arreglo) 
+                
+                    
+                {
+                    if (incremento != 2) {
+                       
+                    
+                    
+                    System.out.println("posición "+incremento+" : "+args[incremento]);
+                    incremento++;
+                    }
+                   
+                    else 
+                    {// continue;
+            //            break; /* While que esté evaluando en TRUE*/
+                    incremento++;
+                    }
+                    
+                /*
+                Es increíble que el incremento que se lee en args en el println 
+                sea de parte del int. Como tiene variables de enteros, lo lee como enteros. No le dije
+                que coloque un número de posición, pero levantó números por ser INT. */
+                    //incremento++;
+                }
+        
+          
+            
+                    
+            
+        
+        
+    }}
+    
