@@ -1,0 +1,32 @@
+
+package javaapplication4;
+
+public class JavaApplication4 {
+
+    public static void main(String[] args) {
+      
+        
+        
+        int N1= 2300, N2=1020, N3=1500;
+        
+        
+        if (N1 > N2 && N1 > N3)
+        
+        {System.out.println("N1 con valor de "+N1+" es mayor que "+N2+" y que "+N3+".");
+        }
+        if (N2 > N1 && N2 > N3) 
+        {System.out.println("N2 con valor de "+N2+" es mayor que "+N3+" y que "+N1+".");
+        
+        }
+        if (N3 > N1 && N3 > N2) 
+        {System.out.println("N3 con valor de "+N3+" es mayor que "+N2+" y que "+N1+".");
+    
+        
+        } //Si todos son iguales, evalúo así.
+     if ((N1 == N2) && (N2 == N3) && (N3 == N1)) 
+        {System.out.println("Son todos iguales");   
+    }
+    
+
+}
+}
